@@ -13,6 +13,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'max-len': ['error', 80],
     quotes: ['error', 'single'],
-    semi: ['error', 'always']
+    semi: ['error', 'always'],
+    'comma-dangle': ['error', 'never']
   }
 };
