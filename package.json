@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rowupper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Sharable eslint config used by Rowupper.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "~4.19.1",
+    "eslint": "~5.9.0",
     "eslint-config-rowupper": "file:."
   }
 }
