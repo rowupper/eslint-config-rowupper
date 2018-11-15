@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --quiet *.js",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "publish": "np --any-branch --yolo"
   },
   "license": "MIT",
   "devDependencies": {
     "eslint": "~5.9.0",
-    "eslint-config-rowupper": "file:."
+    "eslint-config-rowupper": "file:.",
+    "np": "~3.0.4"
   }
 }
